@@ -35,4 +35,13 @@ public class SimpleCalculatorTest {
         assertThat(rs).isEqualTo(30);
     }
 
+    @Test
+    @DisplayName("10- 5=5")
+    public void t4(){
+        SimpleCalculator simpleCalculator= new SimpleCalculator();
+        int rs = simpleCalculator.minus(10,5);
+
+        assertThat(rs).isEqualTo(5);
+    }
+
 }
