@@ -44,4 +44,13 @@ public class SimpleCalculatorTest {
         assertThat(rs).isEqualTo(5);
     }
 
+    @Test
+    @DisplayName("10 * 2 =20")
+    public void t5(){
+        SimpleCalculator simpleCalculator= new SimpleCalculator();
+        int rs = simpleCalculator.multiply(10,2);
+
+        assertThat(rs).isEqualTo(20);
+    }
+
 }
