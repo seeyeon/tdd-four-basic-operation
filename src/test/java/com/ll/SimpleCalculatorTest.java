@@ -25,4 +25,13 @@ public class SimpleCalculatorTest {
         assertEquals(12, rs);
     }
 
+    @Test
+    @DisplayName("10+20=30")
+    public void t3(){
+        SimpleCalculator simpleCalculator= new SimpleCalculator();
+        int rs = simpleCalculator.plus(10,20);
+
+        assertEquals(30, rs);
+    }
+
 }
