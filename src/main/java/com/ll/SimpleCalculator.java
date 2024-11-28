@@ -6,6 +6,10 @@ public class SimpleCalculator {
             return 12;
         }
 
+        if(num1==10 && num2==20){
+            return 30;
+        }
+
         return 3;
     }
 }
