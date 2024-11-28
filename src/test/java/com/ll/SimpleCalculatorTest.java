@@ -53,4 +53,13 @@ public class SimpleCalculatorTest {
         assertThat(rs).isEqualTo(20);
     }
 
+    @Test
+    @DisplayName("10 / 2 =5")
+    public void t6(){
+        SimpleCalculator simpleCalculator= new SimpleCalculator();
+        int rs = simpleCalculator.divide(10,2);
+
+        assertThat(rs).isEqualTo(5);
+    }
+
 }
